@@ -10,6 +10,7 @@ The codegen is using a modified version of the `c-sharp` plugin for [graphql-cod
 - Only dedicated servers right now. Your `accessgroups` must be modified. This will be changed once s&box has proper HTTP support.
 - Only supports queries and mutations, no subscriptions as of yet.
 - Must put queries and mutations in individual files (`mutations/*.graphql` and `queries/*.graphql`).
+  
   _This was a deliberate design choice, so that you aren't dealing with writing shitty queries in verbatim string literals._
 - Operation names must match their file names. See below.
 - Your GraphQL server must have at-least _one_ query and _one_ mutation.
