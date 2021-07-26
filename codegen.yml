@@ -1,0 +1,8 @@
+schema: http://localhost:4000/graphql
+generates:
+  types/Types.cs:
+    plugins:
+      - sbox-csharp
+    config:
+      namespaceName: GraphQLExample
+      className: APITypes

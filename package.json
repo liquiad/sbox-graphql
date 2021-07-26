@@ -1,0 +1,15 @@
+{
+  "name": "sandbox-graphql",
+  "author": "liquid",
+  "version": "1.0.0",
+  "description": "GraphQL client for s&box",
+  "devDependencies": {
+    "graphql": "15.5.1",
+    "@graphql-codegen/cli": "^1.21.7",
+    "graphql-codegen-sbox-csharp": "latest"
+  },
+  "scripts": {
+    "codegen": "graphql-codegen"
+  },
+  "license": "ISC"
+}

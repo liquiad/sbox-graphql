@@ -1,0 +1,4 @@
+queries/*.graphql
+mutations/*.graphql
+types/*.cs
+node_modules
