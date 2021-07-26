@@ -2,6 +2,7 @@
 
 A basic GraphQL client for s&box.
 It lets you do queries and mutations, and generate C# types from your GraphQL schema/Apollo server.
+
 The codegen is using a modified version of the `c-sharp` plugin for [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/), with some stuff stripped out.
 
 **Caveats:**
